@@ -1,6 +1,6 @@
 version: "3"
 services:
-  centos7-deskop:
+  centos7-desktop:
     # build: ./
     image: ghcr.io/1219mai0410/centos7-desktop
     container_name: centos7-desktop
