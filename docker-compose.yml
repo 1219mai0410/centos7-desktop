@@ -9,4 +9,4 @@ services:
     ports:
       - 13389:3389
     command:
-      - /sbin/ini
+      - /sbin/init
