@@ -8,5 +8,7 @@ services:
     privileged: true
     ports:
       - 13389:3389
+    volumes:
+      - "./resolv.conf:/etc/resolv.conf"
     command:
-      - /sbin/ini
+      - /sbin/init
